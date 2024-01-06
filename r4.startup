@@ -11,8 +11,8 @@ route add default gw 10.0.3.1
 
 /etc/init.d/dhcpd start
 
+/*
 cd shared
 chmod +x ping.sh && ./ping.sh
-echo
-echo
 chmod +x ping-name.sh && ./ping-name.sh
+*/

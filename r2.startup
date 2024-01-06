@@ -9,8 +9,8 @@ route add -net 10.0.7.0/24 gw 10.0.4.2 #G
 
 route add default gw 10.0.1.1
 
+/*
 cd shared
 chmod +x ping.sh && ./ping.sh
-echo
-echo
 chmod +x ping-name.sh && ./ping-name.sh
+*/
