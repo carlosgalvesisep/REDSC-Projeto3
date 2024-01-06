@@ -1,0 +1,12 @@
+// named.conf.local
+// Name server config file.
+zone "redsc.local." IN {
+    type master;
+    file "/etc/bind/redsc.local.db";
+};
+
+// Reverse DNS resolution for Subnets 
+zone "0.10.in-addr.arpa" IN {
+ type master;
+ file "/etc/bind/rev.redsc_af.db";
+};

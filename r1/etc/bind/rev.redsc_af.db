@@ -1,0 +1,25 @@
+;
+; rev.redsc_af.db
+;
+$TTL 43200
+@                       IN      SOA nameserver.redsc.local. 1201570.1211604(
+                                    2009111001 ; serial
+                                    3600 ; refresh
+                                    1800 ; retry
+                                    1209600 ; expire
+                                    43200 ; default_ttl
+)
+@                       IN      NS nameserver.redsc.local.
+1.1.0.10.in-addr.arpa.  IN  PTR     nameserver.redsc.local
+1.2.0.10.in-addr.arpa.  IN  PTR     nameserver.redsc.local
+2.1.0.10.in-addr.arpa.  IN  PTR     r2.redsc.local
+1.4.0.10.in-addr.arpa.  IN  PTR     r2.redsc.local
+1.5.0.10.in-addr.arpa.  IN  PTR     r2.redsc.local
+2.2.0.10.in-addr.arpa.  IN  PTR     r3.redsc.local
+1.3.0.10.in-addr.arpa.  IN  PTR     r3.redsc.local
+1.7.0.10.in-addr.arpa.  IN  PTR     r3.redsc.local
+2.3.0.10.in-addr.arpa.  IN  PTR     r4.redsc.local
+2.4.0.10.in-addr.arpa.  IN  PTR     r4.redsc.local
+1.6.0.10.in-addr.arpa.  IN  PTR     r4.redsc.local
+2.5.0.10.in-addr.arpa.  IN  PTR     fileserver1.redsc.local
+2.7.0.10.in-addr.arpa.  IN  PTR     fileserver2.redsc.local

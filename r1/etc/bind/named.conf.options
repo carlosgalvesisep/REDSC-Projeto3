@@ -1,0 +1,11 @@
+// named.conf.options
+options {
+    directory "/var/cache/bind";
+    forwarders {
+        193.136.56.9; //dns ISEP
+        8.8.8.8; //dns Google
+    };
+    allow-recursion { any; };
+    dnssec-validation no;
+    listen-on-v6 { any; };
+};
