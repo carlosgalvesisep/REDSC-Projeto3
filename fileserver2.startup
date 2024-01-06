@@ -3,3 +3,9 @@ ifconfig eth0 10.0.7.2/24
 /etc/init.d/apache2 start
 
 route add default gw 10.0.7.1
+
+cd shared
+chmod +x ping.sh && ./ping.sh
+echo
+echo
+chmod +x ping-name.sh && ./ping-name.sh
